@@ -1,5 +1,9 @@
-﻿var numbers = new int[10] { 23, 2, 24, 4, 10, 17 ,56 ,7, 78, 11 };
+﻿using System;
+using System.Collections.Generic;
+
+var numbers = new int[10] { 23, 2, 24, 4, 10, 17 ,56 ,7, 78, 11 };
 var header = new Node();
+
 var list = new LinkedListInput(header);
 var ant = header;
 
